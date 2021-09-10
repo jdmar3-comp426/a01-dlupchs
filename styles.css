@@ -11,7 +11,7 @@ body > .header-div > #header {
   position: inherit;
 }
 
-.header-div .nested-div #header {
+.header-div > .nested-div > #header {
   padding: 60px;
   text-align: center;
   background: #000000;
@@ -25,7 +25,7 @@ body > .header-div > #header {
 }
 
 
-.header-div {
+body.header-div {
   width: 101%;
   margin-left: -8px;
   background-color: rgb(27, 27, 27);
@@ -36,7 +36,7 @@ body  {
   background-color: rgb(10, 10, 10);
 }
 
-body > hr {
+body hr {
   width: 50%;
 }
 
