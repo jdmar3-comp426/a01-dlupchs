@@ -1,4 +1,4 @@
-h1#header {
+body > .header-div > #header {
   padding: 60px;
   text-align: center;
   background: #000000;
@@ -10,6 +10,21 @@ h1#header {
   border-color: black;
   position: inherit;
 }
+
+.header-div > .nested-div > #header {
+  padding: 60px;
+  text-align: center;
+  background: #000000;
+  color: #ffffff;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: 100;
+  font-size: 50px;
+  border-width: 5px;
+  border-color: black;
+  position: inherit;
+}
+
+
 .header-div {
   width: 101%;
   margin-left: -8px;
