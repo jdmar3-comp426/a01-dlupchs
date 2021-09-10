@@ -1,4 +1,4 @@
-.header-div > #header {
+.header-div #header {
   padding: 60px;
   text-align: center;
   background: #000000;
@@ -8,6 +8,7 @@
   font-size: 50px;
   border-width: 5px;
   border-color: black;
+  position: inherit;
 }
 .header-div {
   width: 101%;
