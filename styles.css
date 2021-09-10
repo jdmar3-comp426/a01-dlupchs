@@ -11,7 +11,7 @@ body > .header-div > #header {
   position: inherit;
 }
 
-.header-div > .nested-div > #header {
+.header-div .nested-div #header {
   padding: 60px;
   text-align: center;
   background: #000000;
